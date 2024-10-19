@@ -66,11 +66,12 @@ Replace YOUR_HOSTING_TOKEN with your actual hosting token for the IceRiver API.
 You can also customize the behavior of the bot by modifying the following sections of the code:
 
 Alert thresholds for hashrate and temperature (default: hashrate < 5 Th/s, temperature > 89°C).
+
 Scheduling intervals for checks (default: every 10 minutes for both IceRiver miners and Kaspa workers).
 ## Available Commands
 Once the bot is running, you can use the following Telegram commands:
 
-/restart <worker_name>: Restart a specified worker by its name.
+`/restart <worker_name>` : Restart a specified worker by its name.
 
 Example:
 
