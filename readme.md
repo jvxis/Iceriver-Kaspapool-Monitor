@@ -45,6 +45,13 @@ TELEGRAM_USER_ID = YOUR_TELEGRAM_USER_ID
 
 # Your Kaspa Wallet (replace with your wallet address)
 KASPA_WALLET = 'YOUR_KASPA_WALLET_ADDRESS'
+
+#Your CSRF-TOKEN
+CSRF_TOKEN = 'YOUR_CSRF_TOKEN'
+
+#Your ICERIVER Login email
+YOUR_EMAIL = 'YOUR_EMAIL'
+
 ```
 ## To configure these settings:
 .Open the script file bot.py.
@@ -54,6 +61,10 @@ KASPA_WALLET = 'YOUR_KASPA_WALLET_ADDRESS'
 .Replace YOUR_TELEGRAM_USER_ID with your own Telegram ID (you can get it by starting telegram @userinfobot).
 
 .Replace YOUR_KASPA_WALLET_ADDRESS with your Kaspa wallet address.
+
+.Replace CSRF_TOKEN with your Iceriver Session Token.
+
+.Replace YOUR_EMAIL with the email you use to Login in Iceriver.
 ### Step 4: Running the Bot
 You need to provide a hosting token for the IceRiver API via a command-line argument.
 
