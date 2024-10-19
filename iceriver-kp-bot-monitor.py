@@ -24,6 +24,12 @@ TELEGRAM_USER_ID = YOUR_TELEGRAM_USER_ID
 #Your Kaspa Wallet
 KASPA_WALLET = 'YOUR_KASPA_WALLET_ADDRESS'
 
+#Your CSRF-TOKEN
+CSRF_TOKEN = 'YOUR_CSRF_TOKEN'
+
+#Your ICERIVER Login email
+YOUR_EMAIL = 'YOUR_EMAIL'
+
 print("Bot Started")
 
 headers_basic = {
@@ -38,9 +44,9 @@ headers_basic = {
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "sec-gpc": "1",
-    "x-csrf-token": "YOUR-CSRF-TOKEN",
+    "x-csrf-token": f"{CSRF_TOKEN}",
     "x-requested-with": "XMLHttpRequest",
-    "cookie": f"lan=en-US; hosting_token={hosting_token}; hosting_email=YOUR-EMAIL",
+    "cookie": f"lan=en-US; hosting_token={hosting_token}; hosting_email={YOUR_EMAIL}",
     "Referer": "https://host.iceriver.io/rig/miners-list",
     "Referer-Policy": "strict-origin-when-cross-origin"
 }
