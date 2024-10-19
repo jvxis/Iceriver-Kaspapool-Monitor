@@ -3,14 +3,21 @@ This project is a Python bot designed to monitor *IceRiver ASICS* and *Kaspa poo
 
 ## Features
 .Monitor IceRiver miners for low hashrate or high temperature.
+
 .Monitor Kaspa pool workers for inactivity (no shares within a 300-second window).
+
 .Automatically restart problematic workers through a renaming mechanism.
+
 .Send real-time alerts via Telegram.
+
 .Configurable settings for Telegram Bot Token, User ID, and Kaspa Wallet.
+
 .Handles API errors, connection issues, and retries automatically.
 ## Requirements
 .Python 3.6+
+
 .pyTelegramBotAPI
+
 .requests library
 ## Installation
 ### Step 1: Clone the Repository
@@ -41,8 +48,11 @@ KASPA_WALLET = 'YOUR_KASPA_WALLET_ADDRESS'
 ```
 ## To configure these settings:
 .Open the script file bot.py.
+
 .Replace YOUR_TELEGRAM_BOT_TOKEN with the token from @BotFather when you create a bot.
+
 .Replace YOUR_TELEGRAM_USER_ID with your own Telegram ID (you can get it by starting telegram @userinfobot).
+
 .Replace YOUR_KASPA_WALLET_ADDRESS with your Kaspa wallet address.
 ### Step 4: Running the Bot
 You need to provide a hosting token for the IceRiver API via a command-line argument.
