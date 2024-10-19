@@ -38,9 +38,9 @@ headers_basic = {
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "sec-gpc": "1",
-    "x-csrf-token": "7093b8bbd05c5020e55771bcf12fa7a14c5b43aa6b26cef471793a36462e6653s%3A32%3A%22gywSGgfdeAv8QWEdaIPTYFTb9huQ23zs%22%3B",
+    "x-csrf-token": "YOUR-CSRF-TOKEN",
     "x-requested-with": "XMLHttpRequest",
-    "cookie": f"lan=en-US; hosting_token={hosting_token}; hosting_email=jaimevbarros@gmail.com",
+    "cookie": f"lan=en-US; hosting_token={hosting_token}; hosting_email=YOUR-EMAIL",
     "Referer": "https://host.iceriver.io/rig/miners-list",
     "Referer-Policy": "strict-origin-when-cross-origin"
 }
